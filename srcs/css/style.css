@@ -3,6 +3,8 @@
 @import url('./components/about-me.css');
 @import url('./components/our-work.css');
 @import url('./micro-transactions/header.css');
+@import url('./variables.css');
+@import url('./micro-transactions/our-work.css');
 
 * {
     padding: 0;
@@ -10,3 +12,7 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: calc(100% - var(--large-screen-size-container));
+    margin: 0 auto;
+}

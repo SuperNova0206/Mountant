@@ -1,3 +1,6 @@
+@import url('../variables.css');
+
+/* Type face */
 @font-face {
     font-family: "Gloss And Bloom";
     src: url(../../assets/fonts/Gloss_And_Bloom.ttf) format('woff');
@@ -13,8 +16,8 @@
 
 .hero-section main .hero-section-content {
     width: 50%;
-    height: calc(100vh - 106px);
-    margin: 32px calc(50% / 2) 0px;
+    height: calc(100vh - 114px);
+    margin: 24px calc(50% / 2) 0px;
 }
 
 .hero-section main .hero-section-content .title {
@@ -45,7 +48,7 @@
 .hero-section main .hero-section-content .cta-button button {
     padding: 16px 32px;
     background: #fff;
-    color: #9BC0FF;
+    color: var(--secondary-color);
     border-radius: 32px;
     font-size: 24px;
     font-weight: 700;

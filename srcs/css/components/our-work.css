@@ -1,12 +1,65 @@
+@import url('../variables.css');
+
 .our-work-section {
-    
+    padding: 80px 0px;
 }
+.our-work-pics {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(23, 1fr);
+    gap: 16px;
+    height: 200vh;
+}
+
 .our-work-section .title {
     width: 100%;
     text-align: center;
     font-family: "Lato", sans-serif;
     text-transform: capitalize;
     font-size: 40px;
-    color: #9BC0FF;
+    color: var(--primary-color);
     font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.our-work-pics .pic-1 {
+    grid-column: 1 / 8;
+    grid-row: 2 / 9;
+    background-image: url('../../assets/imgs/Husky-Dog-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+}
+
+.our-work-pics .pic-2 {
+    grid-column: 1 / 4;
+    grid-row: 9 / 16;
+    background-image: url('../../assets/imgs/adventure-adventurer-altitude-2577274.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-work-pics .pic-3 {
+    grid-column: 4 / 8;
+    grid-row: 9 / 16;
+    background-image: url('../../assets/imgs/beatiful-landscape-cold-colors-2832052.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-work-pics .pic-4 {
+    grid-column: 1 / 5;
+    grid-row: 16 / 24;
+    background-image: url('../../assets/imgs/action-active-cold-2433353.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-work-pics .pic-5 {
+    grid-column: 5 / 8;
+    grid-row: 16 / 24;
+    background-image: url('../../assets/imgs/cold-daylight-fjord-1586298.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

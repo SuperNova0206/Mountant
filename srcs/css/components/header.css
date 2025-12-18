@@ -1,5 +1,6 @@
+@import url('../variables.css');
 header {
-    padding: 16px 104px;
+    padding: 24px 0px;
 }
 
 header .logo-navlinks-cta {
@@ -23,8 +24,8 @@ header .logo-navlinks-cta .logo .brand-name {
     margin-left: 9px;
 }
 
-header .logo-navlinks-cta .logo .brand-name .second-part{
-    color: #9BC0FF;
+header .logo-navlinks-cta .logo .brand-name .second-part {
+    color: var(--secondary-color);
 }
 
 header .logo-navlinks-cta .navlinks-cta .navlinks {

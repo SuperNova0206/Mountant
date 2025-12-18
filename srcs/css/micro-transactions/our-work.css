@@ -1,0 +1,19 @@
+/* Our work hover */
+@import url('../variables.css');
+.our-work-pics .pic-1 {
+    position: relative;
+}
+
+.our-work-pics .pic-1 .pic-1-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.our-work-pics.pic-1:hover .pic-1::before {
+    width: 100%;
+}
