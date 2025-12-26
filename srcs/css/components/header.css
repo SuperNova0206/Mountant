@@ -4,11 +4,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
 }
 
 header .logo {
@@ -17,10 +12,14 @@ header .logo {
 }
 
 header .brand-logo {
-    width: 50px;
+    width: 80px;
 }
 
-header input {
+/*
+    Instead of putting the burger menu here just try to make a new stylesheet file for him because don't forget We'll need to add a mirco-interaction when the visitors will hover on that burger menu to display NavLinks
+*/
+
+/* header input {
     display: none;
 }
 
@@ -50,12 +49,12 @@ header .hamburger span {
 
 .hamburger span:nth-child(3) {
     top: 16px;
-}
+} */
 
-/* header .logo-navlinks-cta {
+.logo-navlinks-cta {
     display: flex;
     justify-content: space-between;
-} */
+}
 
 /* header .logo-navlinks-cta .logo {
     display: flex;
@@ -68,7 +67,7 @@ header .logo .brand-name {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.8rem;
     color: #fff;
     margin-left: 9px;
 }
@@ -77,20 +76,20 @@ header .logo .brand-name .second-part {
     color: var(--secondary-color);
 }
 
-header .logo-navlinks-cta .navlinks-cta .navlinks {
+.logo-navlinks-cta .navlinks-cta .navlinks {
     list-style: none;
     text-transform: capitalize;
     display: flex;
     margin-right: 32spx;
 }
 
-header .logo-navlinks-cta .navlinks-cta {
+.logo-navlinks-cta .navlinks-cta {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .logo-navlinks-cta .navlinks-cta .navlinks a {
+.logo-navlinks-cta .navlinks-cta .navlinks a {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-weight: 900;
@@ -98,11 +97,11 @@ header .logo-navlinks-cta .navlinks-cta .navlinks a {
     text-decoration: none;
 }
 
-header .logo-navlinks-cta .navlinks-cta .navlinks li {
+.logo-navlinks-cta .navlinks-cta .navlinks li {
     margin-right: 32px;
 }
 
-header .logo-navlinks-cta .navlinks-cta .cta-button button {
+.navlinks-cta .cta-button button:hover {
     outline: none;
     border: 1px solid #fff;
     background-color: transparent;
